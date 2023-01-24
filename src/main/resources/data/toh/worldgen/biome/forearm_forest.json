@@ -7,7 +7,7 @@
     "fog_color": 12288696,
     "water_color": 10076657,
     "water_fog_color": 12631996,
-    "grass_color": 8414608,
+    "grass_color": 7101291,
     "foliage_color": 6060920
   },
   "spawners": {},
@@ -69,11 +69,13 @@
       "minecraft:spring_lava"
     ],
     [
+      "minecraft:patch_grass_normal",
       "toh:prickly_fir_tree",
       "toh:wrinkling_oak_tree",
       "toh:wrinkling_oak_bush",
       "toh:patch_nightgrass",
-      "toh:patch_tulip"
+      "toh:patch_tulip",
+      "toh:patch_woodgrass"
     ],
     []
   ]

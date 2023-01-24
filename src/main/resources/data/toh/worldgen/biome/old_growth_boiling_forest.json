@@ -7,7 +7,7 @@
     "fog_color": 12814500,
     "water_color": 10076657,
     "water_fog_color": 12631996,
-    "grass_color": 12150360,
+    "grass_color": 9461836,
     "foliage_color": 3966060
   },
   "spawners": {},
@@ -74,7 +74,8 @@
       "toh:wrinkling_oak_tree",
       "toh:wrinkling_oak_bush",
       "toh:patch_nightgrass",
-      "toh:patch_tulip"
+      "toh:patch_tulip",
+      "toh:patch_woodgrass"
     ],
     []
   ]

@@ -160,7 +160,7 @@ public class ModBlocks {
 
     public static final Block BURNBRISTLE = registerBlock("burnbristle", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.POPPY)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block POTTED_BURNBRISTLE = registerBlockWithoutItem("potted_burnbristle", new FlowerPotBlock(ModBlocks.BURNBRISTLE, FabricBlockSettings.copy(Blocks.POTTED_ALLIUM)));
-    public static final Block NIGHTGRASS = registerBlock("nightgrass", new PlantBlock(FabricBlockSettings.copy(Blocks.GRASS)), ModItemGroup.DEMON_REALM_MISC);
+    public static final Block NIGHTGRASS = registerBlock("nightgrass", new ModNightgrassBlock(FabricBlockSettings.copy(Blocks.GRASS)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block SKY_TULIP = registerBlock("sky_tulip", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.ORANGE_TULIP)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block POTTED_SKY_TULIP = registerBlockWithoutItem("potted_sky_tulip", new FlowerPotBlock(ModBlocks.BURNBRISTLE, FabricBlockSettings.copy(Blocks.POTTED_ORANGE_TULIP)));
     public static final Block SEA_TULIP = registerBlock("sea_tulip", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.ORANGE_TULIP)), ModItemGroup.DEMON_REALM_MISC);
@@ -168,6 +168,7 @@ public class ModBlocks {
     public static final Block NIGHT_TULIP = registerBlock("night_tulip", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.ORANGE_TULIP)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block DEMON_ROSE = registerBlock("demon_rose", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.POPPY)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block PETUNIA = registerBlock("petunia", new FlowerBlock(StatusEffects.FIRE_RESISTANCE, 20, FabricBlockSettings.copy(Blocks.ORANGE_TULIP)), ModItemGroup.DEMON_REALM_MISC);
+    public static final Block WOODGRASS = registerBlock("woodgrass", new PlantBlock(FabricBlockSettings.copy(Blocks.DEAD_BUSH)), ModItemGroup.DEMON_REALM_MISC);
 
     public static final Block BEACHGRASS = registerBlock("beachgrass", new TallSandPlantBlock(FabricBlockSettings.copy(Blocks.DEAD_BUSH)), ModItemGroup.DEMON_REALM_MISC);
     public static final Block MIDNIGHT_FERN = registerBlock("midnight_fern", new FernBlock(FabricBlockSettings.copy(Blocks.FERN)), ModItemGroup.DEMON_REALM_MISC);
