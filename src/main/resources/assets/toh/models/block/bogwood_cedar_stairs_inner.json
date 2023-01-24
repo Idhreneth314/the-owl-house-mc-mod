@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "toh:block/bogwood_cedar_planks",
+    "side": "toh:block/bogwood_cedar_planks",
+    "top": "toh:block/bogwood_cedar_planks"
+  }
+}

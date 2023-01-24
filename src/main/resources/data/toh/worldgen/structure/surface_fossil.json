@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:nether_fossil",
+  "biomes": [
+    "toh:boiling_fields",
+    "toh:boiling_forest"
+  ],
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 0
+    },
+    "max_inclusive": {
+      "below_top": 256
+    }
+  }
+}

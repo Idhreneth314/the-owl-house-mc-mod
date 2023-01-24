@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toh:block/bogwood_cedar_slab"
+    },
+    "type=double": {
+      "model": "toh:block/bogwood_cedar_planks"
+    },
+    "type=top": {
+      "model": "toh:block/bogwood_cedar_slab_top"
+    }
+  }
+}

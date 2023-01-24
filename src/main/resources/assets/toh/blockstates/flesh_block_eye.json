@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      { "model": "toh:block/flesh_block_eye_1" },
+      { "model": "toh:block/flesh_block_eye_2" },
+      { "model": "toh:block/flesh_block_eye_3" },
+      { "model": "toh:block/flesh_block_eye_4" },
+      { "model": "toh:block/flesh_block_eye_5" },
+      { "model": "toh:block/flesh_block_eye_6" },
+      { "model": "toh:block/flesh_block_eye_7" },
+      { "model": "toh:block/flesh_block_eye_8" },
+      { "model": "toh:block/flesh_block_eye_9" }
+      ]
+  }
+}

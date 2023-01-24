@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "toh:block/bogwood_cedar_sapling"
+  }
+}
