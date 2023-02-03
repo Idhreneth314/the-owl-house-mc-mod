@@ -2,7 +2,10 @@ package net.fabricmc.toh;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.toh.block.ModBlocks;
+import net.fabricmc.toh.client.renderer.entity.FeralBipedBeastRenderer;
+import net.fabricmc.toh.entity.ModEntities;
 import net.minecraft.client.render.RenderLayer;
 
 public class tohClient implements ClientModInitializer {
@@ -42,7 +45,7 @@ public class tohClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FOOLS_BLOOD_DRIPSTONE, RenderLayer.getCutout());
 
 
-
+        EntityRendererRegistry.register(ModEntities.FERAL_BIPED_BEAST, FeralBipedBeastRenderer::new);
 
     }
 }
